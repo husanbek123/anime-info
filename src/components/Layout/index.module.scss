@@ -1,0 +1,19 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+
+  .content {
+    padding: 24px 20px;
+    width: 100%;
+    background-color: #0d1017;
+    color: white;
+  }
+
+  .sidebar {
+    min-width: 220px;
+    background-color: rgb(22, 27, 33);
+    position: sticky !important;
+    top: 10px;
+  }
+}

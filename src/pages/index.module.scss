@@ -1,0 +1,16 @@
+.animes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 25px;
+}
+
+.btnLink {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0 12px;
+  button {
+    background-color: rgb(51, 143, 255);
+    border-radius: 6px;
+    padding: 4px 12px;
+  }
+}
